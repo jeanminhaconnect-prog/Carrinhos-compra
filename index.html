@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🛒 Minha Loja Virtual</h1>
+
+    <section id="produtos">
+        <h2>Produtos disponíveis</h2>
+        <button onclick="adicionarProduto(1)">Adicionar Mouse - R$ 50,00</button>
+        <button onclick="adicionarProduto(2)">Adicionar Teclado - R$ 120,00</button>
+    </section>
+
+    <section>
+        <h2>Meu Carrinho</h2>
+        <div id="listaCarrinho"></div>
+        <h3 id="total">Total: R$ 0,00</h3>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
